@@ -111,7 +111,7 @@ Abre en navegador: `http://localhost:8000/docs`
    http://TU_IP_AQUI:8000/docs
    ```
 
-**Importante**: Solo funciona en la misma red local (LAN). No es seguro exponer al público.
+**Importante**: Solo funciona en la misma red local (LAN).
 
 ---
 
@@ -140,6 +140,6 @@ upload_date TEXT NOT NULL        -- Fecha de subida ("02/05/2026")
 
 ##  Notas Importantes
 
-- No hay autenticación actualmente (API abierta para pruebas)
+- No hay autenticación actualmente
 - Archivos se guardan con UUID + extensión original (evita colisiones de nombres)
 - Base de datos SQLite en raíz del proyecto (`database.db`)
