@@ -28,10 +28,10 @@ Mini Cloud/
 │   ├── database/          # Persistencia SQLite
 │   │   ├── connection.py  # Inicializa tabla 'files'
 │   │   └── repository.py  # CRUD sobre metadatos
-│   ├── core/              # Configuración (vacío)
-│   └── models/            # Pydantic models (vacío)
+│   ├── core/              # Configuración 
+│   └── models/            # Pydantic models 
 ├── storage/               # Almacenamiento físico de archivos
-├── tests/                 # Tests unitarios (vacío)
+├── tests/                 # Tests unitarios 
 ├── requirements.txt       # Dependencias Python
 └── README.md              # Esta documentación
 ```
